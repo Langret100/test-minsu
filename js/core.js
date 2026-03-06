@@ -258,7 +258,7 @@ const EMO_BASE_PATH = "images/emotions/";
 const CHARACTERS = {
   mina: {
     key: "mina",
-    name: "민수",
+    name: "해찌",
     basePath: EMO_BASE_PATH,
     intro: (name) => {
       const lines = [
@@ -274,9 +274,9 @@ const CHARACTERS = {
   },
   minsu: {
     key: "minsu",
-    name: "미나",
+    name: "성훈",
     basePath: "images/emotions_ma1/",
-    intro: (name) => name + "야. 오늘도 같이 놀아볼까?",
+    intro: (name) => name + ". 오늘도 같이 놀아볼까?",
   },
 };
 
