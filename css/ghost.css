@@ -98,6 +98,7 @@ input, textarea, [contenteditable="true"] {
       align-items: flex-end;
       justify-content: center;
       pointer-events: none;
+      overflow: visible;
     }
 
     /* PC 게임 모드에서 고스트를 화면 오른쪽으로 조금 더 붙이기 */
@@ -110,7 +111,9 @@ body.is-game-mode #ghostContainer {
     #ghost {
       width: 660px;
       height: 660px;
-      position: relative;
+      position: absolute;
+      bottom: 0;
+      right: 0;
       pointer-events: auto;
       cursor: pointer;
       user-select: none;
@@ -500,6 +503,9 @@ body.is-game-mode #ghostContainer {
       #ghost {
         width: 216px;
         height: 216px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
       }
       #bubbleWrapper {
         right: 210px; /* scale(2.4) 기준 캐릭터 왼쪽에 말풍선 위치 */
