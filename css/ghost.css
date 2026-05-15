@@ -125,6 +125,7 @@ body.is-game-mode #ghostContainer {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      object-position: bottom;
       -webkit-touch-callout: none;
       display: none;
     }
